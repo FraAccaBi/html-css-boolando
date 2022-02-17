@@ -24,3 +24,11 @@
 img{    
     width: 200px;
 }
+.hidden_a{
+    position: absolute;
+    left: 500px;
+    visibility: hidden;
+}
+.product:hover .hidden_a{
+    visibility: visible;
+}
