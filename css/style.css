@@ -78,6 +78,8 @@ p{
     position: absolute;
     bottom: 3.5rem;
     left: 500px;
+    background-color: red;
+    color: white;
 }
 .last{
     position: absolute;
@@ -88,4 +90,14 @@ p{
     position: absolute;
     bottom: 3.5rem;
     left: 714px;
+    background-color: red;
+    color: white;
+}
+.half{
+    background-color: red;
+    color: white;
+}
+.sost{
+    background-color: green;
+    color: white;
 }
