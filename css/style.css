@@ -12,12 +12,15 @@
 }
 .firstrow{
     position: relative;
-    padding-bottom: 2.5rem;
+    padding-bottom: 2rem;
+}
+.secondrow{
+    position: relative;
+    padding-bottom: 2rem;
 }
 .product{
-    background-color: #E7E7E7;
     width: 200px;
-    height: 350px;
+    height: 300px;
     display: inline-block;
     margin: 5px;
 }
@@ -47,4 +50,42 @@ img{
 }
 .product:hover .hidden_c{
     visibility: visible;
+}
+/*prodotto*/
+p{
+    font-size: small;
+    display: inline-block;
+    position: absolute;
+    bottom: 1px;
+    left: 286px;
+}
+.badge{
+    display: inline-block;
+    position: absolute;
+    bottom: 3.5rem;
+    left: 286px;
+}
+
+.description{
+    text-align: left;
+}
+.middle{
+    position: absolute;
+    bottom: 1px;
+    left: 500px;
+}
+.three{
+    position: absolute;
+    bottom: 3.5rem;
+    left: 500px;
+}
+.last{
+    position: absolute;
+    bottom: 1px;
+    left: 714px;
+}
+.for{
+    position: absolute;
+    bottom: 3.5rem;
+    left: 714px;
 }
