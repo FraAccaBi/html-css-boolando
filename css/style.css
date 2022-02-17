@@ -19,16 +19,32 @@
     width: 200px;
     height: 350px;
     display: inline-block;
-    margin: 0.25rem;
+    margin: 5px;
 }
 img{    
     width: 200px;
 }
 .hidden_a{
     position: absolute;
-    left: 500px;
+    left: 286px;
     visibility: hidden;
 }
 .product:hover .hidden_a{
+    visibility: visible;
+}
+.hidden_b{
+    position: absolute;
+    left: 500px;
+    visibility: hidden;
+}
+.product:hover .hidden_b{
+    visibility: visible;
+}
+.hidden_c{
+    position: absolute;
+    left: 714px;
+    visibility: hidden;
+}
+.product:hover .hidden_c{
     visibility: visible;
 }
