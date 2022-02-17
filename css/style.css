@@ -101,3 +101,10 @@ p{
     background-color: green;
     color: white;
 }
+#heart{
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    left: 475px;    
+}
+
