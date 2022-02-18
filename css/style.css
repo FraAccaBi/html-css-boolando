@@ -10,101 +10,61 @@
     margin: 1rem auto;
     text-align: center;
 }
-.firstrow{
+.row{
     position: relative;
-    padding-bottom: 2rem;
-}
-.secondrow{
-    position: relative;
-    padding-bottom: 2rem;
 }
 .product{
     width: 200px;
-    height: 300px;
+    height: 335px;
     display: inline-block;
     margin: 5px;
+    position: relative;
 }
 img{    
     width: 200px;
 }
-.hidden_a{
+.hidden{
     position: absolute;
-    left: 286px;
+    top:0px;
+    left: 0px;
     visibility: hidden;
 }
-.product:hover .hidden_a{
-    visibility: visible;
-}
-.hidden_b{
-    position: absolute;
-    left: 500px;
-    visibility: hidden;
-}
-.product:hover .hidden_b{
-    visibility: visible;
-}
-.hidden_c{
-    position: absolute;
-    left: 714px;
-    visibility: hidden;
-}
-.product:hover .hidden_c{
+.product:hover .hidden{
     visibility: visible;
 }
 /*prodotto*/
+
 p{
     font-size: small;
     display: inline-block;
     position: absolute;
     bottom: 1px;
-    left: 286px;
 }
 .badge{
     display: inline-block;
     position: absolute;
     bottom: 3.5rem;
-    left: 286px;
+    left:0px;
+    color: white;
+}
+.three, .half{    
+    background-color: red;
+}
+.sost{
+    left:2rem;
+    background-color: green;
 }
 
 .description{
     text-align: left;
-}
-.middle{
     position: absolute;
-    bottom: 1px;
-    left: 500px;
-}
-.three{
-    position: absolute;
-    bottom: 3.5rem;
-    left: 500px;
-    background-color: red;
-    color: white;
-}
-.last{
-    position: absolute;
-    bottom: 1px;
-    left: 714px;
-}
-.for{
-    position: absolute;
-    bottom: 3.5rem;
-    left: 714px;
-    background-color: red;
-    color: white;
-}
-.half{
-    background-color: red;
-    color: white;
-}
-.sost{
-    background-color: green;
-    color: white;
+    bottom:0%;
+    left: 0px;
 }
 #heart{
+    font-size: xx-large;
     background-color: white;
     position: absolute;
     top: 10px;
-    left: 475px;    
+    right: 0px;    
 }
-
